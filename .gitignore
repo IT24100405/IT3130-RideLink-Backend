@@ -1,0 +1,22 @@
+# Environment variables and secrets
+**/.env
+**/.env.*
+!**/.env.example
+.env
+.env.*
+!.env.example
+
+# Build directories
+**/target/
+**/build/
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.project
+.classpath
+.settings/
