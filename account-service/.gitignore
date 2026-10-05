@@ -1,33 +1,8 @@
-<<<<<<< HEAD
-# Environment variables and secrets
-**/.env
-**/.env.*
-!**/.env.example
-.env
-.env.*
-!.env.example
-
-# Build directories
-**/target/
-**/build/
-.mvn/wrapper/maven-wrapper.jar
-
-# IDE files
-.idea/
-*.iml
-*.iws
-*.ipr
-.vscode/
-.project
-.classpath
-.settings/
-=======
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-.env
 
 ### STS ###
 .apt_generated
@@ -56,4 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
->>>>>>> 8c559c9d53cef1aadda687f645ad7946bfc3ddb2
+
+### Environment secrets ###
+.env
+.env*.local
