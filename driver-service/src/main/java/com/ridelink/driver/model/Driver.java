@@ -55,7 +55,4 @@ public class Driver {
     @Schema(description = "Timestamp when the driver profile was created")
     private Instant createdAt;
 
-    @LastModifiedDate
-    @Schema(description = "Timestamp when the driver profile was last updated")
-    private Instant updatedAt;
 }
